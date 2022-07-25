@@ -26,8 +26,8 @@ console.warn('punto 1 de la actividad-4')
   
   console.warn('punto 3 actividad-4')
 
-  let numHombres = parseInt(prompt('Ingrese la cantidad de hombres que hay'))
-  let numMujeres = parseInt(prompt('Ingrese la cantidad de mujeres que hay'))
+  let numHombres = parseInt(prompt('Ingrese la cantidad de hombres'))
+  let numMujeres = parseInt(prompt('Ingrese la cantidad de mujeres'))
   const numTotalEstudiantes = numHombres+numMujeres
   let porcentajeHombres = ((numHombres*100)/numTotalEstudiantes)
   let porcentajeMujeres = ((numMujeres*100)/numTotalEstudiantes)
@@ -61,8 +61,8 @@ if(procedimiento === 1){
 
 console.warn('punto 5 actividad-4')
 
-let huevo = prompt('Que tipo de huevo desea llevar? 1 para tipo "a" o 2 para tipo "aa"')
-let cantHuevo = parseInt(prompt('cantidad de huevos que desea llevar'))
+let huevo = prompt('ingrese Que tipo de huevo desea llevar: 1 para tipo "a" o 2 para tipo "aa"')
+let cantHuevo = parseInt(prompt('ingrese cantidad de huevos'))
 
 if (huevo = 1 && cantHuevo < 101){
     alert(`El total a pagar es: ${(220 * cantHuevo)}`)
